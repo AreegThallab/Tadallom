@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>تظلُّم</title>
-  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="stylesheet" href="/tazallom_mvp/public/assets/styles.css" />
 </head>
 <body>
 
@@ -20,11 +20,11 @@
         <div class="reveal">
           <div class="h1"> العدالة تبدأ وعيًا قبل أن تُنطق حكمًا</div>
           <p class="p">
-            نظام ذكي يساعدك تبني تظلّمك الصحيح؛ من إدخال القرار، إلى فهم حالتك، وصولًا إلى تقرير نهائي واضح وجاهز
-          </p>
+        نظام ذكي يساعدك تبني تظلّمك الصحيح؛ من إدخال القرار، إلى فهم حالتك، وصولًا إلى تقرير نهائي واضح وجاهز
+        </p>
 
           <div class="btns" style="margin-top:16px">
-            <a class="btn primary" href="/auth/register.php">ابدأ الآن</a>
+            <a class="btn primary" href="/tazallom_mvp/public/auth/register.php">ابدأ الآن   </a>
             <a class="btn" href="#features">وش يميّزنا؟</a>
           </div>
         </div>
@@ -34,15 +34,15 @@
           <div style="display:grid;gap:10px;place-items:center">
             <div style="width:220px;height:220px;display:grid;place-items:center;border-radius:28px;background:transparent;border:0;">
               <img
-                src="/assets/logo1.svg"
+                src="/tazallom_mvp/public/assets/logo1.svg"
                 alt="شعار تظلُّم"
                 style="width:100%;height:100%;object-fit:contain;padding:0;filter:none;"
               >
             </div>
 
             <div class="btns" style="justify-content:center">
-              <a class="btn primary" href="/auth/register.php">إنشاء حساب</a>
-              <a class="btn" href="/auth/login.php">تسجيل دخول</a>
+              <a class="btn primary" href="/tazallom_mvp/public/auth/register.php">إنشاء حساب</a>
+              <a class="btn" href="/tazallom_mvp/public/auth/login.php">تسجيل دخول</a>
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@
               <path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0-18"></path>
             </svg>
           </div>
-          <h3>تحديد المده الزمنية المطلوبه</h3>
+          <h3>  تحديد المده الزمنية المطلوبه</h3>
           <p>متابعة التقديم والردود + خيار “ما تم الرد عليه”.</p>
         </div>
 
@@ -210,6 +210,6 @@
 
   <?php require_once __DIR__ . "/../includes/layout_footer.php"; ?>
 
-  <script src="/assets/app.js"></script>
+  <script src="/tazallom_mvp/public/assets/app.js"></script>
 </body>
 </html>
