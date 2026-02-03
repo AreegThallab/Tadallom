@@ -5,4 +5,4 @@ RUN docker-php-ext-install pdo pdo_mysql
 WORKDIR /app
 COPY . .
 
-CMD /bin/sh -c 'PORT=$(printenv PORT || echo 8080); echo "Using PORT=$PORT"; php -S 0.0.0.0:$PORT -t public'
+CMD ["/bin/sh", "-lc", "PORT=$(printenv PORT || echo 8080); echo Using_PORT=$PORT; exec php -S 0.0.0.0:$PORT -t public"]
