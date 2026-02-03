@@ -3,7 +3,8 @@
 
     <!-- Logo -->
     <div class="foot-logo">
-      <img src="/tazallom_mvp/public/assets/logo.svg" alt="تظلُّم">
+      <img src="/assets/logo.svg
+" alt="تظلُّم">
     </div>
 
     <!-- Links -->
