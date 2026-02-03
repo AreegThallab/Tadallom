@@ -1,11 +1,14 @@
-FROM php:8.2-apache
+FROM php:8.4-cli
 
-RUN a2enmod rewrite
+# تثبيت الإضافات
+RUN docker-php-ext-install pdo pdo_mysql
 
-COPY . /var/www/html
+# نسخ المشروع
+WORKDIR /app
+COPY . .
 
-RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available/000-default.conf
+# فتح البورت
+EXPOSE 8080
 
-RUN chown -R www-data:www-data /var/www/html
-
-EXPOSE 80
+# تشغيل السيرفر من public
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "public"]
