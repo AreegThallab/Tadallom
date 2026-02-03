@@ -5,7 +5,8 @@
 
     <!-- Brand -->
     <a class="landing-brand" href="/tazallom_mvp/public/index.php">
-      <img src="/tazallom_mvp/public/assets/logo.svg" alt="تظلُّم">
+      <img src="/assets/logo.svg
+" alt="تظلُّم">
     </a>
 
     <!-- Links -->
